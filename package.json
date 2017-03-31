@@ -13,6 +13,8 @@
     "translate": "node translate.js -EN ./trans/g_en.trans.json -DE ./trans/g_de.trans.json",
     "compile": "node compile.js g.json ./trans/g_de.trans.json ./build/g_de.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "google-translate-noapi": "bitcraftlab/google-translate-noapi"
+  },
   "devDependencies": {}
 }
